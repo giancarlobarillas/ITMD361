@@ -28,18 +28,19 @@
     </fieldset>
     <h3>My Availablity</h3>
     <fieldset>
-        <p>Days Available:</p>
-        <p><input type="checkbox">Sunday</p>
-        <p><input type="checkbox">Monday</p>
-        <p><input type="checkbox">Tuesday</p>
-        <p><input type="checkbox">Wednesday</p>
-        <p><input type="checkbox">Thursday</p>
-        <p><input type="checkbox">Friday</p>
-        <p><input type="checkbox">Saturday</p>
+        <p for="available_field">Days Available:</p>
+        <p for="available"><input type="checkbox" name="available_field[]" value ="Sunday">Sunday</p>
+        <p for="available"><input type="checkbox" name="available_field[]" value ="Monday">Monday</p>
+        <p for="available"><input type="checkbox" name="available_field[]" value ="Tuesday">Tuesday</p>
+        <p for="available"><input type="checkbox" name="available_field[]" value ="Wednesday">Wednesday</p>
+        <p for="available"><input type="checkbox" name="available_field[]" value ="Thursday">Thursday</p>
+        <p for="available"><input type="checkbox" name="available_field[]" value ="Friday">Friday</p>
+        <p for="available"><input type="checkbox" name="available_field[]" value ="Saturday">Saturday</p>
         <p>Any Comments?</p>
-        <textarea cols="50" rows="4"></textarea>
+        <textarea name="comments_field" cols="50" rows="4"></textarea>
     </fieldset>
     <input type="submit" value="Send Me">
+    <input type="hidden" name="hidden_field" value="gbarilla">
     </form>
 </body>
 </html>
