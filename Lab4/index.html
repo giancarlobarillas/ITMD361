@@ -13,7 +13,9 @@
         <p>Last Name:<input type="text" name="last_name_field"></p>
         <p>Phone Number:<input type="text" name="phone_field"></p>
         <p>Email Address:<input type="text" name="email_field"></p>
-        <p>Gender: <input type="radio" value="Male" name="gender_field">Male <input type="radio" value="Female" name="gender_field">Female</p>
+        <label for="gender_field">Gender: </label>
+        <input type="radio" name="gender_field" value="Male">Male
+        <input type="radio" name="gender_field" value="Female">Female
         <select name="age_field">
             <option value="under 18">Under 18</option>
             <option value="18-24">18-24</option>
@@ -37,7 +39,7 @@
         <p>Any Comments?</p>
         <textarea cols="50" rows="4"></textarea>
     </fieldset>
+    <input type="submit" value="Send Me">
     </form>
-    <input type="button" value="SEND ME">
 </body>
 </html>
