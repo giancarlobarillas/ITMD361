@@ -35,7 +35,6 @@
             <li><a href="#validation">Form Validations</a></li>
             <li><a href="#formInputs">Email,Url, and search Inputs</a></li>
             <li><a href="#idanddivs">Divs and ID's</a></li>
-            <li><a href="#iframes">IFrames</a></li>
         </ol>
         <h1 id="top">This is the Body header 1</h1>
         <h2>This is the Body header 2</h2>
@@ -82,17 +81,19 @@
         <h3 id="nested">Nested List</h3>
         <ul>
             <li>You can</li>
-            <li>have list</li>
-            <ul>
-                <li>inside of</li>
-                <li>the same list</li>
-                <li>like sublists</li>
-                <ol>
-                    <li>how far</li>
-                    <li>can this</li>
-                    <li>go?</li>
-                </ol>
-            </ul>
+            <li>have list
+                <ul>
+                    <li>inside of</li>
+                    <li>the same list</li>
+                    <li>like sublists
+                        <ol>
+                            <li>how far</li>
+                            <li>can this</li>
+                            <li>go?</li>
+                        </ol>
+                    </li>
+                </ul>
+            </li>
         </ul>
         <h3 id="links">Links</h3>
         <p>Link on that same page</p>
@@ -106,7 +107,7 @@
         <p>Align can take in strings of left,right,top,middle and bottom</p>
         <p>image in figure tag</p>
         <figure>
-            <img src="keyboard.jpg" alt="Razor keyboard image" title="10keyless keyboard from razors chroma series of mechanical keyboards" width="600" height="450"/>
+            <img src="keyboard.jpg" alt="Razor keyboard image" title="10keyless keyboard from razors chroma series of mechanical keyboards"/>
             <figcaption>Razor Mechanical keyboard, Tournament Edition</figcaption>
         </figure>
         <h3 id="tables">Tables using table,tr,td tags</h3>
@@ -222,7 +223,6 @@
         <p>(input type=file)upload your song in MP formate:</p>
         <input type="file" name="user-song"/><br/>
         <input type="submit" value="input type=submit"/>
-        <input type="image" src="keyboard.jpg" width="100" width="50">
         <h3 id="labels">Labels</h3>
         <label>Age: <input type="text" name=age/></label>
         <br />
@@ -270,11 +270,5 @@
         <h3 id="idanddivs">ID and div</h3>
         <p>add index at start and give id to all h3 tags and self-reference link</p>
         <p>DIV tag is used to group content. Encapsulate content in div to organize information</p>
-        <h3 id=iframes>Iframes</h3>
-        <iframe
-                width="450"
-                height="350" 
-                src="http://maps.google.co.uk/maps?q=Chicago&amp;output=embed">
-        </iframe>
     </body>
 <html>
