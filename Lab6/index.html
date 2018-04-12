@@ -36,7 +36,11 @@
 		<h2 id="textoutput" class="center">Show results here</h2>
 	</div>
 	<script type="text/javascript">
-		
+		document.getElementById("entrybutton").addEventListener("click",function(){
+            var output=document.getElementById("entryinput").value;
+            document.getElementById("textoutput").innerHTML=output;//allocating output to textoutput
+            alert("Giancarlo Barillas: "+ output);
+        })
 	</script>
 </body>
 </html>
